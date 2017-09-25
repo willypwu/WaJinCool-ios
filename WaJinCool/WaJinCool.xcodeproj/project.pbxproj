@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16190D281F73C3DF0057D41A /* WaJinCool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16190D261F73C3DF0057D41A /* WaJinCool.xcdatamodeld */; };
+		16190D2A1F73C8AF0057D41A /* PhotoMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16190D291F73C8AF0057D41A /* PhotoMapping.swift */; };
+		165D2EB91F6BBD4500CD87D4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D2EB81F6BBD4500CD87D4 /* MainViewController.swift */; };
+		166965021F6A512400B763FA /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166965011F6A512400B763FA /* Record.swift */; };
+		167E026A1F6FA41C00D8AA83 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167E02691F6FA41C00D8AA83 /* PhotoViewController.swift */; };
+		167E026C1F6FC10C00D8AA83 /* WaJinCoolDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167E026B1F6FC10C00D8AA83 /* WaJinCoolDataManager.swift */; };
+		16A67C0F1F70D15900E18E08 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16A67C0E1F70D15900E18E08 /* GoogleService-Info.plist */; };
+		16A67C111F7110F300E18E08 /* WaJinCoolServerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A67C101F7110F300E18E08 /* WaJinCoolServerService.swift */; };
+		16A67C161F7218F000E18E08 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A67C151F7218F000E18E08 /* CategoryTableViewController.swift */; };
+		16A67C181F721E7B00E18E08 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A67C171F721E7B00E18E08 /* CategoryTableViewCell.swift */; };
+		16A67C1A1F72676200E18E08 /* InformationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A67C191F72676200E18E08 /* InformationTableViewController.swift */; };
+		16A67C1C1F7267E100E18E08 /* InformationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A67C1B1F7267E100E18E08 /* InformationTableViewCell.swift */; };
+		16A67C1F1F73B7AE00E18E08 /* Pods_WaJinCool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0077A5891ADB8D4DC3FB1F51 /* Pods_WaJinCool.framework */; };
+		16B35F0F1F6622FD00F1655E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B35F0E1F6622FD00F1655E /* AppDelegate.swift */; };
+		16B35F111F6622FD00F1655E /* RecordDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B35F101F6622FD00F1655E /* RecordDetailViewController.swift */; };
+		16B35F141F6622FD00F1655E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16B35F121F6622FD00F1655E /* Main.storyboard */; };
+		16B35F161F6622FD00F1655E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16B35F151F6622FD00F1655E /* Assets.xcassets */; };
+		16B35F191F6622FD00F1655E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16B35F171F6622FD00F1655E /* LaunchScreen.storyboard */; };
+		16B35F241F6622FD00F1655E /* WaJinCoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B35F231F6622FD00F1655E /* WaJinCoolTests.swift */; };
+		16CCBAAB1F6924DE00C265C5 /* RecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CCBAAA1F6924DE00C265C5 /* RecordTableViewCell.swift */; };
+		16CCBAAD1F692C5B00C265C5 /* RecordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CCBAAC1F692C5B00C265C5 /* RecordTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16B35F201F6622FD00F1655E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16B35F031F6622FD00F1655E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16B35F0A1F6622FD00F1655E;
+			remoteInfo = WaJinCool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0077A5891ADB8D4DC3FB1F51 /* Pods_WaJinCool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaJinCool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16190D271F73C3DF0057D41A /* WaJinCool.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WaJinCool.xcdatamodel; sourceTree = "<group>"; };
+		16190D291F73C8AF0057D41A /* PhotoMapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoMapping.swift; sourceTree = "<group>"; };
+		165D2EB81F6BBD4500CD87D4 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		166965011F6A512400B763FA /* Record.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		167E02691F6FA41C00D8AA83 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		167E026B1F6FC10C00D8AA83 /* WaJinCoolDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaJinCoolDataManager.swift; sourceTree = "<group>"; };
+		167E026D1F70C77C00D8AA83 /* WaJinCool_Bridge_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaJinCool_Bridge_Header.h; sourceTree = "<group>"; };
+		167E026E1F70CA4A00D8AA83 /* FSCalendar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FSCalendar.framework; path = "../../../Library/Developer/Xcode/DerivedData/WaJinCool-btylaehzelxlpcdxakclnyegdmyo/Build/Products/Debug-iphoneos/FSCalendar/FSCalendar.framework"; sourceTree = "<group>"; };
+		167E026F1F70CA4A00D8AA83 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleToolboxForMac.framework; path = "../../../Library/Developer/Xcode/DerivedData/WaJinCool-btylaehzelxlpcdxakclnyegdmyo/Build/Products/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework"; sourceTree = "<group>"; };
+		167E02701F70CA4A00D8AA83 /* GTMOAuth2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMOAuth2.framework; path = "../../../Library/Developer/Xcode/DerivedData/WaJinCool-btylaehzelxlpcdxakclnyegdmyo/Build/Products/Debug-iphoneos/GTMOAuth2/GTMOAuth2.framework"; sourceTree = "<group>"; };
+		167E02711F70CA4A00D8AA83 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMSessionFetcher.framework; path = "../../../Library/Developer/Xcode/DerivedData/WaJinCool-btylaehzelxlpcdxakclnyegdmyo/Build/Products/Debug-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework"; sourceTree = "<group>"; };
+		16A67C0E1F70D15900E18E08 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		16A67C101F7110F300E18E08 /* WaJinCoolServerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaJinCoolServerService.swift; sourceTree = "<group>"; };
+		16A67C151F7218F000E18E08 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		16A67C171F721E7B00E18E08 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		16A67C191F72676200E18E08 /* InformationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationTableViewController.swift; sourceTree = "<group>"; };
+		16A67C1B1F7267E100E18E08 /* InformationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationTableViewCell.swift; sourceTree = "<group>"; };
+		16A67C1D1F73B79A00E18E08 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		16B35F0B1F6622FD00F1655E /* WaJinCool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaJinCool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B35F0E1F6622FD00F1655E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16B35F101F6622FD00F1655E /* RecordDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordDetailViewController.swift; sourceTree = "<group>"; };
+		16B35F131F6622FD00F1655E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16B35F151F6622FD00F1655E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16B35F181F6622FD00F1655E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16B35F1A1F6622FD00F1655E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16B35F1F1F6622FD00F1655E /* WaJinCoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaJinCoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B35F231F6622FD00F1655E /* WaJinCoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaJinCoolTests.swift; sourceTree = "<group>"; };
+		16B35F251F6622FD00F1655E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16CCBAAA1F6924DE00C265C5 /* RecordTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordTableViewCell.swift; sourceTree = "<group>"; };
+		16CCBAAC1F692C5B00C265C5 /* RecordTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordTableViewController.swift; sourceTree = "<group>"; };
+		648E5A20A9E3C921C7181D52 /* Pods-WaJinCool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaJinCool.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaJinCool/Pods-WaJinCool.release.xcconfig"; sourceTree = "<group>"; };
+		B1F30E3015E2D444F5DEF81A /* Pods-WaJinCool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaJinCool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaJinCool/Pods-WaJinCool.debug.xcconfig"; sourceTree = "<group>"; };
+		E0D904AFCDCD844CB674C595 /* Pods_WaJinCoolTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaJinCoolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16B35F081F6622FD00F1655E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A67C1F1F73B7AE00E18E08 /* Pods_WaJinCool.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16B35F1C1F6622FD00F1655E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16B35F021F6622FD00F1655E = {
+			isa = PBXGroup;
+			children = (
+				16B35F0D1F6622FD00F1655E /* WaJinCool */,
+				16B35F221F6622FD00F1655E /* WaJinCoolTests */,
+				16B35F0C1F6622FD00F1655E /* Products */,
+				F96E59475380981903F07D4E /* Pods */,
+				89960E3B39A5246833D337FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		16B35F0C1F6622FD00F1655E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16B35F0B1F6622FD00F1655E /* WaJinCool.app */,
+				16B35F1F1F6622FD00F1655E /* WaJinCoolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16B35F0D1F6622FD00F1655E /* WaJinCool */ = {
+			isa = PBXGroup;
+			children = (
+				16B35F0E1F6622FD00F1655E /* AppDelegate.swift */,
+				16B35F101F6622FD00F1655E /* RecordDetailViewController.swift */,
+				16CCBAAA1F6924DE00C265C5 /* RecordTableViewCell.swift */,
+				16B35F121F6622FD00F1655E /* Main.storyboard */,
+				165D2EB81F6BBD4500CD87D4 /* MainViewController.swift */,
+				16CCBAAC1F692C5B00C265C5 /* RecordTableViewController.swift */,
+				166965011F6A512400B763FA /* Record.swift */,
+				16B35F151F6622FD00F1655E /* Assets.xcassets */,
+				16B35F171F6622FD00F1655E /* LaunchScreen.storyboard */,
+				16B35F1A1F6622FD00F1655E /* Info.plist */,
+				167E02691F6FA41C00D8AA83 /* PhotoViewController.swift */,
+				16A67C0E1F70D15900E18E08 /* GoogleService-Info.plist */,
+				167E026B1F6FC10C00D8AA83 /* WaJinCoolDataManager.swift */,
+				167E026D1F70C77C00D8AA83 /* WaJinCool_Bridge_Header.h */,
+				16A67C101F7110F300E18E08 /* WaJinCoolServerService.swift */,
+				16190D261F73C3DF0057D41A /* WaJinCool.xcdatamodeld */,
+				16A67C151F7218F000E18E08 /* CategoryTableViewController.swift */,
+				16A67C171F721E7B00E18E08 /* CategoryTableViewCell.swift */,
+				16A67C191F72676200E18E08 /* InformationTableViewController.swift */,
+				16A67C1B1F7267E100E18E08 /* InformationTableViewCell.swift */,
+				16190D291F73C8AF0057D41A /* PhotoMapping.swift */,
+			);
+			path = WaJinCool;
+			sourceTree = "<group>";
+		};
+		16B35F221F6622FD00F1655E /* WaJinCoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				16B35F231F6622FD00F1655E /* WaJinCoolTests.swift */,
+				16B35F251F6622FD00F1655E /* Info.plist */,
+			);
+			path = WaJinCoolTests;
+			sourceTree = "<group>";
+		};
+		89960E3B39A5246833D337FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16A67C1D1F73B79A00E18E08 /* CoreData.framework */,
+				167E026E1F70CA4A00D8AA83 /* FSCalendar.framework */,
+				167E026F1F70CA4A00D8AA83 /* GoogleToolboxForMac.framework */,
+				167E02701F70CA4A00D8AA83 /* GTMOAuth2.framework */,
+				167E02711F70CA4A00D8AA83 /* GTMSessionFetcher.framework */,
+				0077A5891ADB8D4DC3FB1F51 /* Pods_WaJinCool.framework */,
+				E0D904AFCDCD844CB674C595 /* Pods_WaJinCoolTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F96E59475380981903F07D4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1F30E3015E2D444F5DEF81A /* Pods-WaJinCool.debug.xcconfig */,
+				648E5A20A9E3C921C7181D52 /* Pods-WaJinCool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16B35F0A1F6622FD00F1655E /* WaJinCool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16B35F281F6622FD00F1655E /* Build configuration list for PBXNativeTarget "WaJinCool" */;
+			buildPhases = (
+				DCB821BD6A9BA79EE053211D /* [CP] Check Pods Manifest.lock */,
+				16B35F071F6622FD00F1655E /* Sources */,
+				16B35F081F6622FD00F1655E /* Frameworks */,
+				16B35F091F6622FD00F1655E /* Resources */,
+				4D43C0E25261A7560423A199 /* [CP] Embed Pods Frameworks */,
+				C6F6B353496A40B77E04FF80 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaJinCool;
+			productName = WaJinCool;
+			productReference = 16B35F0B1F6622FD00F1655E /* WaJinCool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16B35F1E1F6622FD00F1655E /* WaJinCoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16B35F2B1F6622FD00F1655E /* Build configuration list for PBXNativeTarget "WaJinCoolTests" */;
+			buildPhases = (
+				16B35F1B1F6622FD00F1655E /* Sources */,
+				16B35F1C1F6622FD00F1655E /* Frameworks */,
+				16B35F1D1F6622FD00F1655E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16B35F211F6622FD00F1655E /* PBXTargetDependency */,
+			);
+			name = WaJinCoolTests;
+			productName = WaJinCoolTests;
+			productReference = 16B35F1F1F6622FD00F1655E /* WaJinCoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16B35F031F6622FD00F1655E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Willy Wu";
+				TargetAttributes = {
+					16B35F0A1F6622FD00F1655E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CG25AHX24D;
+						ProvisioningStyle = Automatic;
+					};
+					16B35F1E1F6622FD00F1655E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 16B35F0A1F6622FD00F1655E;
+					};
+				};
+			};
+			buildConfigurationList = 16B35F061F6622FD00F1655E /* Build configuration list for PBXProject "WaJinCool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16B35F021F6622FD00F1655E;
+			productRefGroup = 16B35F0C1F6622FD00F1655E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16B35F0A1F6622FD00F1655E /* WaJinCool */,
+				16B35F1E1F6622FD00F1655E /* WaJinCoolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16B35F091F6622FD00F1655E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B35F191F6622FD00F1655E /* LaunchScreen.storyboard in Resources */,
+				16A67C0F1F70D15900E18E08 /* GoogleService-Info.plist in Resources */,
+				16B35F161F6622FD00F1655E /* Assets.xcassets in Resources */,
+				16B35F141F6622FD00F1655E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16B35F1D1F6622FD00F1655E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D43C0E25261A7560423A199 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WaJinCool/Pods-WaJinCool-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaJinCool/Pods-WaJinCool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6F6B353496A40B77E04FF80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WaJinCool/Pods-WaJinCool-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaJinCool/Pods-WaJinCool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCB821BD6A9BA79EE053211D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WaJinCool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16B35F071F6622FD00F1655E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B35F111F6622FD00F1655E /* RecordDetailViewController.swift in Sources */,
+				166965021F6A512400B763FA /* Record.swift in Sources */,
+				167E026C1F6FC10C00D8AA83 /* WaJinCoolDataManager.swift in Sources */,
+				16A67C161F7218F000E18E08 /* CategoryTableViewController.swift in Sources */,
+				16190D281F73C3DF0057D41A /* WaJinCool.xcdatamodeld in Sources */,
+				16CCBAAB1F6924DE00C265C5 /* RecordTableViewCell.swift in Sources */,
+				165D2EB91F6BBD4500CD87D4 /* MainViewController.swift in Sources */,
+				16A67C1A1F72676200E18E08 /* InformationTableViewController.swift in Sources */,
+				167E026A1F6FA41C00D8AA83 /* PhotoViewController.swift in Sources */,
+				16190D2A1F73C8AF0057D41A /* PhotoMapping.swift in Sources */,
+				16A67C111F7110F300E18E08 /* WaJinCoolServerService.swift in Sources */,
+				16B35F0F1F6622FD00F1655E /* AppDelegate.swift in Sources */,
+				16CCBAAD1F692C5B00C265C5 /* RecordTableViewController.swift in Sources */,
+				16A67C1C1F7267E100E18E08 /* InformationTableViewCell.swift in Sources */,
+				16A67C181F721E7B00E18E08 /* CategoryTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16B35F1B1F6622FD00F1655E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B35F241F6622FD00F1655E /* WaJinCoolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16B35F211F6622FD00F1655E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16B35F0A1F6622FD00F1655E /* WaJinCool */;
+			targetProxy = 16B35F201F6622FD00F1655E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16B35F121F6622FD00F1655E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16B35F131F6622FD00F1655E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16B35F171F6622FD00F1655E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16B35F181F6622FD00F1655E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16B35F261F6622FD00F1655E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16B35F271F6622FD00F1655E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16B35F291F6622FD00F1655E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1F30E3015E2D444F5DEF81A /* Pods-WaJinCool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CG25AHX24D;
+				INFOPLIST_FILE = WaJinCool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.willy.WaJinCool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = WaJinCool/WaJinCool_Bridge_Header.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		16B35F2A1F6622FD00F1655E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 648E5A20A9E3C921C7181D52 /* Pods-WaJinCool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CG25AHX24D;
+				INFOPLIST_FILE = WaJinCool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.willy.WaJinCool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = WaJinCool/WaJinCool_Bridge_Header.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		16B35F2C1F6622FD00F1655E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaJinCoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.willy.WaJinCoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaJinCool.app/WaJinCool";
+			};
+			name = Debug;
+		};
+		16B35F2D1F6622FD00F1655E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaJinCoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.willy.WaJinCoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaJinCool.app/WaJinCool";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16B35F061F6622FD00F1655E /* Build configuration list for PBXProject "WaJinCool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16B35F261F6622FD00F1655E /* Debug */,
+				16B35F271F6622FD00F1655E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16B35F281F6622FD00F1655E /* Build configuration list for PBXNativeTarget "WaJinCool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16B35F291F6622FD00F1655E /* Debug */,
+				16B35F2A1F6622FD00F1655E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16B35F2B1F6622FD00F1655E /* Build configuration list for PBXNativeTarget "WaJinCoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16B35F2C1F6622FD00F1655E /* Debug */,
+				16B35F2D1F6622FD00F1655E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		16190D261F73C3DF0057D41A /* WaJinCool.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				16190D271F73C3DF0057D41A /* WaJinCool.xcdatamodel */,
+			);
+			currentVersion = 16190D271F73C3DF0057D41A /* WaJinCool.xcdatamodel */;
+			path = WaJinCool.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 16B35F031F6622FD00F1655E /* Project object */;
+}
