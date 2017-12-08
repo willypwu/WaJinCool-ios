@@ -25,7 +25,6 @@
 		16B35F141F6622FD00F1655E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16B35F121F6622FD00F1655E /* Main.storyboard */; };
 		16B35F161F6622FD00F1655E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16B35F151F6622FD00F1655E /* Assets.xcassets */; };
 		16B35F191F6622FD00F1655E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16B35F171F6622FD00F1655E /* LaunchScreen.storyboard */; };
-		16B35F241F6622FD00F1655E /* WaJinCoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B35F231F6622FD00F1655E /* WaJinCoolTests.swift */; };
 		16CCBAAB1F6924DE00C265C5 /* RecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CCBAAA1F6924DE00C265C5 /* RecordTableViewCell.swift */; };
 		16CCBAAD1F692C5B00C265C5 /* RecordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CCBAAC1F692C5B00C265C5 /* RecordTableViewController.swift */; };
 /* End PBXBuildFile section */
@@ -68,8 +67,6 @@
 		16B35F181F6622FD00F1655E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16B35F1A1F6622FD00F1655E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16B35F1F1F6622FD00F1655E /* WaJinCoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaJinCoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		16B35F231F6622FD00F1655E /* WaJinCoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaJinCoolTests.swift; sourceTree = "<group>"; };
-		16B35F251F6622FD00F1655E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16CCBAAA1F6924DE00C265C5 /* RecordTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordTableViewCell.swift; sourceTree = "<group>"; };
 		16CCBAAC1F692C5B00C265C5 /* RecordTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordTableViewController.swift; sourceTree = "<group>"; };
 		648E5A20A9E3C921C7181D52 /* Pods-WaJinCool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaJinCool.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaJinCool/Pods-WaJinCool.release.xcconfig"; sourceTree = "<group>"; };
@@ -100,7 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				16B35F0D1F6622FD00F1655E /* WaJinCool */,
-				16B35F221F6622FD00F1655E /* WaJinCoolTests */,
 				16B35F0C1F6622FD00F1655E /* Products */,
 				F96E59475380981903F07D4E /* Pods */,
 				89960E3B39A5246833D337FF /* Frameworks */,
@@ -142,15 +138,6 @@
 				16190D291F73C8AF0057D41A /* PhotoMapping.swift */,
 			);
 			path = WaJinCool;
-			sourceTree = "<group>";
-		};
-		16B35F221F6622FD00F1655E /* WaJinCoolTests */ = {
-			isa = PBXGroup;
-			children = (
-				16B35F231F6622FD00F1655E /* WaJinCoolTests.swift */,
-				16B35F251F6622FD00F1655E /* Info.plist */,
-			);
-			path = WaJinCoolTests;
 			sourceTree = "<group>";
 		};
 		89960E3B39A5246833D337FF /* Frameworks */ = {
@@ -369,7 +356,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16B35F241F6622FD00F1655E /* WaJinCoolTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

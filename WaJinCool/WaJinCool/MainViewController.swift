@@ -44,7 +44,7 @@ class MainViewController: UIViewController, UITextFieldDelegate
         dateTextField.inputView = UIView();
         dateTextField.tintColor = .clear
         dateTextField.text = dateList[indexOfToday!]
-        dateDropDow.selectRow(2, inComponent: 0, animated: false)
+        dateDropDow.selectRow(indexOfToday!, inComponent: 0, animated: false)
         
         
         // login
